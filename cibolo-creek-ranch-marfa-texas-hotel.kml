@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>KML map - Cibolo Creek Ranch - Marfa, Texas Hotel</name>
+		<atom:link rel="related" href="http://cibolocreekranch.com/" />
+		<Folder>
+			<Placemark>
+				<name>Cibolo Creek Ranch</name>
+				<address>HCR 67, Box 44, 33 mi south of Marfa, Marfa, TX 79843</address>
+				<phoneNumber>432-229-3737</phoneNumber>
+				<Snippet maxLines="6">Cibolo Creek Ranch is a beautiful hotel located in the Chinati Mountains in Marfa Texas. It provides the ultimate in comfort and luxury.</Snippet>
+				<description><![CDATA[
+				HCR 67, Box 44, 33 mi south of Marfa, Marfa, TX 79843<br>
+				(432) 229-3737<br>
+				<a href="http://cibolocreekranch.com/">cibolocreekranch.com</a><br><br>
+				<img src="http://cibolocreekranch.com/images/image_inthemedia.jpg" alt="marfa texas hotel" height="181" width="430" /><br><br>
+				Cibolo Creek Ranch is a <a href="http://cibolocreekranch.com/">Marfa Texas hotel</a> located in a peaceful, natural setting of the Big Bend in West Texas. ]]></description>
+				<Point>
+					<coordinates>-104.265017,29.875294,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>
+
+
+

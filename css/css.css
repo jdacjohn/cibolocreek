@@ -1,0 +1,336 @@
+body {
+	background-color: #000000;
+}
+/*
+img.home_cutout {
+	top: 250;
+	
+	z-index: 2;
+	visibility: show;
+	} */
+
+img, div, a img{ behavior: url(iepngfix.htc); }
+
+img{
+  border: none;
+}
+
+.Navigation_Main {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #d89354;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Navigation_Main a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF8C10;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Navigation_Main a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Navigation_Main2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #d89354;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Navigation_Main2 a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FF8C10;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Navigation_Main2 a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Homepage_Copy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.Homepage_Copy a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF8C10;
+	text-decoration: underline;
+}
+.Homepage_Copy  a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #d89354;
+	text-decoration: underline;
+}
+.Footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.Footer a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF8C10;
+	text-decoration: none;
+}
+.Footer a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #d89354;
+	text-decoration: none;
+}
+.Body_Copy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #565656;
+	text-decoration: none;
+}
+.Body_Copy  a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF8C10;
+	text-decoration: underline;
+}
+.Body_Copy  a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #d89354;
+	text-decoration: underline;
+}
+.Page_Numbers {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #565656;
+	text-decoration: none;
+}
+.Page_Numbers  a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF8C10;
+	text-decoration: none;
+}
+.Page_Numbers  a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #d89354;
+	text-decoration: none;
+}
+h1, h1 a, h1 a:hover, h1 a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 650;
+	color: #565656;
+	text-decoration: none;
+}
+.em12 {
+	font-size: 1.2em;
+}
+a.white {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+/* edit below miniForm */
+
+#ciboloMini {
+	position: relative;
+	/*background-color: #b4886b;	
+	background-color: #926118;
+	background-color: #A17A36;*/
+	background-color: #DAC898;
+	/*background-color: #D1C39E;
+	background-color: #BF973B;*/
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding-top: 15px;
+	padding-right: 18px;
+	padding-bottom: 15px;
+	padding-left: 13px;
+	width: 302px;
+	font-size: .8em;
+	text-align: right;
+}
+
+	#ciboloMini .textbox {
+		position: relative;
+		display: block;
+		float:left;
+		clear: both;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		min-height: 24px;
+		width: 300px;
+		padding-bottom: 4px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	
+	}
+	
+	#ciboloMini label {
+		display:block;
+		clear: left;
+		float: left;
+		text-align:right;
+		font-weight: bold;
+	}
+	
+		#ciboloMini .textbox label {
+			padding-right: 5px;
+			width: 100px;
+			color: #112234;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+	
+		}
+		
+		#ciboloMini .textbox input {
+			float: left;
+			width: 185px;
+			background-color: #FCFCF9;
+			font-size: .8em;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+	
+		}
+		
+	#ciboloMini .dropdown {
+		clear: both;
+		width: 298px;
+		height: 40px;
+		margin-bottom: 4px;
+		padding-top: 1px;
+		padding-bottom: 4px;
+	}
+	
+		#ciboloMini .dropdown label {
+			display: block;
+			clear: both;
+			padding-bottom: 4px;
+			width: 298px;
+			color: #112234;
+			text-align: left;
+		}
+		
+		#ciboloMini .dropdown select {
+			float: right;
+			clear: both;
+			background-color: beige;
+			font-size: .9em;
+		}
+	
+	#ciboloMini .textarea {
+		position: relative;
+		display:block;
+		clear: both;
+		width: 300px;
+		min-height: 95px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	
+		#ciboloMini .textarea label {
+			padding-right: 5px;
+			width: 95px;
+			color: #112234;
+			text-align: right;
+			vertical-align: top;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+	
+		}
+
+		#ciboloMini .textarea textarea {
+			display:block;
+			float:right;
+			width: 190px;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+	
+		}
+		
+	
+	#ciboloMini .textbox input.required.error {
+		border: 1px solid #F00;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	
+	}
+	
+	#ciboloMini .textbox label.error {
+		clear: both;
+		float: left;
+		width: 190px;
+		margin-left: 105px;
+		padding-bottom: 8px;
+		color: #ff0000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-size: 12px;
+		}
+	
+	.submit {
+		display: block;
+		clear:both;
+		margin-top: 10px;
+		margin-left: 105px;
+		background-color: #926118;
+		color: #F7F7F7;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	}
+	
+	.aboutHistory  {
+		display:block;
+		margin-top:10px;
+		margin-left:200px;
+		background-color:#926118;
+		width:150px;
+		color:#F7F7F7;
+	}
+
+	
+	.form-title {
+		float: right;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 18px;
+		color: #565656;
+		text-decoration: none;
+		font-weight: bold;
+		margin-left: 90px;
+	}
+
+	#ciboloMini span{
+		padding-right: 5px;
+		color: #112234;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	
+	.homepage-form-title{
+		color: #ffffff;
+		font-family: Arial,Helvetica,sans-serif;
+		text-align: left;
+		font-size: 18px;
+		font-weight: bold;
+		text-decoration: none;
+	}
